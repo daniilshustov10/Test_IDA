@@ -1,0 +1,218 @@
+@font-face {
+    font-family: 'Codec Pro';
+    src: url('./fonts/CodecPro-Thin.ttf')
+}
+
+
+body {
+    background: #FCFCFC;
+    margin: 0;
+    font-family: 'Codec Pro';
+}
+
+#container {
+    padding: 30px 64px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__margin {
+    margin-bottom: 40px;
+}
+
+header .logo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text {
+    font-family: Codec Pro;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.logo_text {
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.logo_text__margin {
+    margin-left: 18px;
+}
+
+.logo img {
+    width: 48px;
+    height: 48px;
+}
+
+.theme_button {
+    background:  #FCFCFC;
+    border: none;
+    font-family: Codec Pro;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.theme_button__margin {
+    margin-left: 10px;
+}
+
+.icons ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons ul li .fa {
+    color: #000;
+}
+
+.icons_item__margin {
+    margin-right: 29px;
+}
+
+.user {
+    display: flex;
+    justify-content: space-between;
+}
+
+.user_name {
+    color: #000;
+    font-weight: bold;
+    font-family: Codec Pro;
+    font-style: normal;  
+    font-size: 16px;
+    align-self: center;
+}
+
+.user_img {
+    border-radius: 50%;
+    width: 56px;
+    height: 56px;
+}
+.user_img__margin {
+    margin-left: 16px;
+}
+
+
+
+main {
+    padding: 56px 64px;
+    background: #F3F4F7;
+    border-radius: 48px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.select {
+    font-family: Codec Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    color: #012345;
+}
+
+.select span {
+    color: #4959FF;
+}
+
+.select__margin {
+    margin: 12px 0;
+}
+
+.select select{
+    border: none;
+    color: #4959FF;
+    background: #F3F4F7;
+    vertical-align: middle;
+}
+
+.add label {
+    font-family: Codec Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: #4959FF;
+}
+
+.add__margin {
+    margin-left: 20px;
+}
+
+.add button {
+    background: #4959FF;
+    border-radius: 16px;
+    border: none;
+    color: #ffffff;
+    padding: 15px;
+    font-size: 18px;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 32px;
+}
+
+.content_item {
+    display: flex;
+    justify-content: space-between;
+    background: #FCFCFC;
+    border-radius: 32px;
+    padding: 24px 32px;
+}
+
+.item_img img{
+    width: 88px;
+    height: 88px;
+}
+
+.item_head {
+    font-family: Codec Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 14px;
+    color: #012345;
+}
+
+.item_text {
+    font-family: Codec Pro;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    color: #677B8F;
+}
+
+.item_price {
+    font-family: Codec Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: #F84AB3;
+}
+
+.item_description__margin {
+    margin-left: 24px;
+}
+
+.item_text__margin {
+    margin-top: 12px;
+    margin-bottom: 16px;
+}
