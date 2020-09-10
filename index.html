@@ -3,93 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://use.fontawesome.com/4a89ca9d7c.js"></script>
     <link rel="stylesheet" href="style.css">
     <title>Pepelane</title>
 </head>
 <body>
     <div id="container">
-        <header class="header__margin">
-            <div class="logo">
-                <a href="/"><img src="./img/Logo.png" alt="logo"></a>
-                <p class="logo_text logo_text__margin">Pepelane</p>
+        <header>
+            <div class="navbar navbar__marginBottom">
+                <div class="navbar-left">
+                    <div class="logo">
+                        <a href="#"><img src="./img/Logo.png" alt="logo"></a>
+                        <p class="logo_text logo_text__marginLeft">Pepelane</p>
+                    </div>
+                    <p class="navbar-left_description navbar-left_description__marginLeft">World's first affordable airsharing</p>
+                </div>
+                <div class="navbar-right">
+                    <div class="theme">
+                        <button class="theme_button"><img src="./img/Theme.png" alt="theme"></button>
+                        <p class="theme_text theme_text__marginLeft">Night mod</p>
+                    </div>
+                    <div class="icons icons__margin">
+                        <button class="icons_message"><img src="./img/Message.png" alt="message"></button>
+                        <button class="icons_notification icons_notification__marginLeft"><img src="./img/Notification.png" alt="notification"></button>
+                    </div>
+                    <div class="user user__marginLeft">
+                        <p class="user_text user_text__marginRight">Bessie Cooper</p>
+                        <a href="#"><img src="./img/User.png" alt="User"></a>
+                    </div>
+                </div>                
             </div>
-            <p class="text">World's first affordable airsharing </p>
-            <div class="theme">
-                <a href=""><i class="fa fa-moon-o" aria-hidden="true"></i></a>
-                <button class="theme_button theme_button__margin">Night mod</button>
-            </div>
-            <div class="icons">
-                <ul>
-                    <li class="icons_item icons_item__margin"><a href="#"><img src="" alt=""><i class="fa fa-commenting-o" aria-hidden="true"></i></a></li>
-                    <li><a href="#"><img src="" alt=""><i class="fa fa-bell" aria-hidden="true"></i></a></li>
-                </ul>
-            </div>
-
-            <div class="user">
-                <p class="user_name">Bessie Cooper</p>
-                <img class="user_img user_img__margin" src="./img/User.png" alt="user">
-            </div>
-
         </header>
         <main>
-            <div class="header">
-                <div class="select select__margin">
-                    <label for="select">Rent <span>whatever</span></label>
-                    <select name="select" id="select"></select>
+            <div class="vehicles">
+                <div class="vehicles_header">
+                    <div class="vehicles_select">
+                        <label for="select">Rent <span>whatever</span></label>
+                        <select name="select" id="select"></select>
+                    </div>
+                    <div class="vehicles_add">
+                        <label for="add">Add new</label>
+                        <button id="add" class="vehicles_button vehicles_button__marginLeft">+</button>
+                    </div>                   
                 </div>
-                <div class="add">
-                    <label for="add">Add new</label>
-                    <button id="add" class="add__margin">+</button>
-                </div>
-            </div>
+                <div class="vehicles_list vehicles_list__marginTop">
 
-            <div class="content">
-                <div class="content_item">
-                    <div class="item_img">
-                        <a href="#"><img src="./img/item.png" alt="item"></a>
+                    <div class="vehicles_item" onclick="location.href='./src/pages/vehicle1.html';">
+                        <div class="vehicle_img">
+                            <a href=""><img src="./img/Vehicle.png" alt="vehicle"></a>
+                        </div>
+                        <div class="vehicle_text vehicle_text__marginLeft">
+                            <div class="vehicle_head">XR-74 «Cooper»</div>
+                            <div class="vehicle_description vehicle_description__margin">Brief description of the project, in a few lines.</div>
+                            <div class="vehicle_price">1 278 $/h</div>
+                        </div>
                     </div>
-                    <div class="item_description item_description__margin">
-                        <div class="item_head">XR-74 «Cooper»</div>
-                        <div class="item_text item_text__margin">Brief description of the project, in a few lines.</div>
-                        <div class="item_price">1 278 $/h</div>
+      
+                    <div class="vehicles_item" onclick="location.href='./src/pages/vehicle2.html';">
+                        <div class="vehicle_img">
+                           <a href=""><img src="./img/Vehicle1.png" alt="vehicle"></a>
+                        </div>
+                        <div class="vehicle_text vehicle_text__marginLeft">
+                            <div class="vehicle_head">XR-74 «Cooper»</div>
+                            <div class="vehicle_description vehicle_description__margin">Brief description of the project, in a few lines.</div>
+                            <div class="vehicle_price">1 278 $/h</div>
+                        </div>
                     </div>
-                </div>
 
-                <div class="content_item">
-                    <div class="item_img">
-                        <a href="#"><img src="./img/item.png" alt="item"></a>
+                    <div class="vehicles_item" onclick="location.href='./src/pages/vehicle1.html';">
+                        <div class="vehicle_img">
+                           <a href=""><img src="./img/Vehicle.png" alt="vehicle"></a>
+                        </div>
+                        <div class="vehicle_text vehicle_text__marginLeft">
+                            <div class="vehicle_head">XR-74 «Cooper»</div>
+                            <div class="vehicle_description vehicle_description__margin">Brief description of the project, in a few lines.</div>
+                            <div class="vehicle_price">1 278 $/h</div>
+                        </div>
                     </div>
-                    <div class="item_description item_description__margin">
-                        <div class="item_head">XR-74 «Cooper»</div>
-                        <div class="item_text item_text__margin">Brief description of the project, in a few lines.</div>
-                        <div class="item_price">1 278 $/h</div>
-                    </div>
-                </div>
 
-                <div class="content_item">
-                    <div class="item_img">
-                        <a href="#"><img src="./img/item.png" alt="item"></a>
-                    </div>
-                    <div class="item_description item_description__margin">
-                        <div class="item_head">XR-74 «Cooper»</div>
-                        <div class="item_text item_text__margin">Brief description of the project, in a few lines.</div>
-                        <div class="item_price">1 278 $/h</div>
-                    </div>
-                </div>
-
-                <div class="content_item">
-                    <div class="item_img">
-                        <a href="#"><img src="./img/item.png" alt="item"></a>
-                    </div>
-                    <div class="item_description item_description__margin">
-                        <div class="item_head">XR-74 «Cooper»</div>
-                        <div class="item_text item_text__margin">Brief description of the project, in a few lines.</div>
-                        <div class="item_price">1 278 $/h</div>
+                    <div class="vehicles_item" onclick="location.href='./src/pages/vehicle2.html';">
+                        <div class="vehicle_img">
+                           <a href=""><img src="./img/Vehicle1.png" alt="vehicle"></a>
+                        </div>
+                        <div class="vehicle_text vehicle_text__marginLeft">
+                            <div class="vehicle_head">XR-74 «Cooper»</div>
+                            <div class="vehicle_description vehicle_description__margin">Brief description of the project, in a few lines.</div>
+                            <div class="vehicle_price">1 278 $/h</div>
+                        </div>
                     </div>
                 </div>
             </div>
         </main>
-    </div>    
+    </div>
 </body>
-</html>  
+</html>
